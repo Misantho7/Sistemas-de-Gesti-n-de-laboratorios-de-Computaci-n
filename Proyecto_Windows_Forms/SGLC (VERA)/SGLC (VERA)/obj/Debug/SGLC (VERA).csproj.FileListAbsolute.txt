@@ -1,0 +1,11 @@
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\bin\Debug\SGLC (VERA).exe.config
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\bin\Debug\SGLC (VERA).exe
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\bin\Debug\SGLC (VERA).pdb
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\obj\Debug\SGLC (VERA).csproj.AssemblyReference.cache
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\obj\Debug\SGLC__VERA_.Properties.Resources.resources
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\obj\Debug\SGLC (VERA).csproj.GenerateResource.cache
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\obj\Debug\SGLC (VERA).csproj.CoreCompileInputs.cache
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\obj\Debug\SGLC (VERA).exe
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\obj\Debug\SGLC (VERA).pdb
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\obj\Debug\SGLC__VERA_.frmPanelControl.resources
+C:\Users\ANTHONYVERA\source\repos\SGLC (VERA)\SGLC (VERA)\obj\Debug\SGLC__VERA_.frmInicioSesion.resources
