@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,11 +48,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAsignarAsistentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignarAsistentes.Designer.cs">
+      <DependentUpon>frmAsignarAsistentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComputadoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComputadoras.Designer.cs">
+      <DependentUpon>frmComputadoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistorialGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistorialGeneral.Designer.cs">
+      <DependentUpon>frmHistorialGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIncidenciasEscalas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIncidenciasEscalas.Designer.cs">
+      <DependentUpon>frmIncidenciasEscalas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmInicioSesion.Designer.cs">
       <DependentUpon>frmInicioSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLaboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLaboratorio.Designer.cs">
+      <DependentUpon>frmLaboratorio.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPanelControl.cs">
       <SubType>Form</SubType>
@@ -58,13 +90,37 @@
     <Compile Include="frmPanelControl.Designer.cs">
       <DependentUpon>frmPanelControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAsignarAsistentes.resx">
+      <DependentUpon>frmAsignarAsistentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComputadoras.resx">
+      <DependentUpon>frmComputadoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistorialGeneral.resx">
+      <DependentUpon>frmHistorialGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIncidenciasEscalas.resx">
+      <DependentUpon>frmIncidenciasEscalas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInicioSesion.resx">
       <DependentUpon>frmInicioSesion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLaboratorio.resx">
+      <DependentUpon>frmLaboratorio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPanelControl.resx">
       <DependentUpon>frmPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,6 +147,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cpu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laboratorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computadoras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incidencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asignacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Historial.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

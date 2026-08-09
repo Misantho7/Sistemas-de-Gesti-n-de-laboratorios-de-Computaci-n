@@ -1,22 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
-using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SGLC__VERA_
 {
-    public partial class frmPanelControl : Form
+    public partial class frmUsuarios : Form
     {
-
-        public frmPanelControl()
+        public frmUsuarios()
         {
             InitializeComponent();
         }
 
-        private void btnUsuarios_Click(object sender, EventArgs e)
+        private void btnPanelControl_Click(object sender, EventArgs e)
         {
-            frmUsuarios usuarios = new frmUsuarios();
-            usuarios.Show();
+            frmPanelControl panelControl = new frmPanelControl();
+            panelControl.Show();
             this.Hide();
         }
 

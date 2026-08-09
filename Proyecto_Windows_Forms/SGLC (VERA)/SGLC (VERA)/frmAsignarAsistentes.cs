@@ -1,16 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
-using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SGLC__VERA_
 {
-    public partial class frmPanelControl : Form
+    public partial class frmAsignarAsistentes : Form
     {
-
-        public frmPanelControl()
+        public frmAsignarAsistentes()
         {
             InitializeComponent();
+        }
+
+        private void btnPanelControl_Click(object sender, EventArgs e)
+        {
+            frmPanelControl panelControl = new frmPanelControl();
+            panelControl.Show();
+            this.Hide();
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)
@@ -38,13 +49,6 @@ namespace SGLC__VERA_
         {
             frmIncidenciasEscalas incidenciasEscalas = new frmIncidenciasEscalas();
             incidenciasEscalas.Show();
-            this.Hide();
-        }
-
-        private void btnAsignarEscaladas_Click(object sender, EventArgs e)
-        {
-            frmAsignarAsistentes asignarAsistentes = new frmAsignarAsistentes();
-            asignarAsistentes.Show();
             this.Hide();
         }
 

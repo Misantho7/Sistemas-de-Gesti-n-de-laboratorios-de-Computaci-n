@@ -16,7 +16,7 @@ namespace SGLC__VERA_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmInicioSesion());
+            Application.Run(new frmPanelControl());
         }
     }
 }

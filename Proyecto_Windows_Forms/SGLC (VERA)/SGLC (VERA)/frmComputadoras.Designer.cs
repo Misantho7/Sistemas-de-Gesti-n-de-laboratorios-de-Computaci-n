@@ -1,16 +1,16 @@
 ﻿namespace SGLC__VERA_
 {
-    partial class frmPanelControl
+    partial class frmComputadoras
     {
         /// <summary>
-        /// Variable del diseñador necesaria.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpiar los recursos que se estén usando.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,22 +20,14 @@
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de Windows Forms
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnBarraSuperior = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.lblSeñal2 = new System.Windows.Forms.Label();
-            this.lblseñal1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblUTEQ = new System.Windows.Forms.Label();
             this.pnMenu = new System.Windows.Forms.Panel();
             this.btnHistorialGeneral = new System.Windows.Forms.Button();
             this.btnAsignarEscaladas = new System.Windows.Forms.Button();
@@ -56,8 +48,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblGestionLaboratorio = new System.Windows.Forms.Label();
             this.lblUteqLabs = new System.Windows.Forms.Label();
-            this.pnBarraSuperior.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.pnBarraSuperior = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lblSeñal2 = new System.Windows.Forms.Label();
+            this.lblseñal1 = new System.Windows.Forms.Label();
+            this.lblComputadoras = new System.Windows.Forms.Label();
+            this.lblGestionLaboratorios = new System.Windows.Forms.Label();
+            this.lblUTEQ = new System.Windows.Forms.Label();
             this.pnMenu.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -66,96 +64,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnAdministrador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnBarraSuperior.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pnBarraSuperior
-            // 
-            this.pnBarraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnBarraSuperior.Controls.Add(this.pictureBox3);
-            this.pnBarraSuperior.Controls.Add(this.dateTimePicker1);
-            this.pnBarraSuperior.Controls.Add(this.lblSeñal2);
-            this.pnBarraSuperior.Controls.Add(this.lblseñal1);
-            this.pnBarraSuperior.Controls.Add(this.label4);
-            this.pnBarraSuperior.Controls.Add(this.label1);
-            this.pnBarraSuperior.Controls.Add(this.lblUTEQ);
-            this.pnBarraSuperior.Location = new System.Drawing.Point(267, 0);
-            this.pnBarraSuperior.Name = "pnBarraSuperior";
-            this.pnBarraSuperior.Size = new System.Drawing.Size(1102, 37);
-            this.pnBarraSuperior.TabIndex = 1;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::SGLC__VERA_.Properties.Resources.usuario;
-            this.pictureBox3.Location = new System.Drawing.Point(1051, -1);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(39, 37);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(892, 11);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(105, 20);
-            this.dateTimePicker1.TabIndex = 6;
-            // 
-            // lblSeñal2
-            // 
-            this.lblSeñal2.AutoSize = true;
-            this.lblSeñal2.BackColor = System.Drawing.Color.White;
-            this.lblSeñal2.ForeColor = System.Drawing.Color.Gray;
-            this.lblSeñal2.Location = new System.Drawing.Point(505, 11);
-            this.lblSeñal2.Name = "lblSeñal2";
-            this.lblSeñal2.Size = new System.Drawing.Size(13, 13);
-            this.lblSeñal2.TabIndex = 7;
-            this.lblSeñal2.Text = ">";
-            // 
-            // lblseñal1
-            // 
-            this.lblseñal1.AutoSize = true;
-            this.lblseñal1.BackColor = System.Drawing.Color.White;
-            this.lblseñal1.ForeColor = System.Drawing.Color.Gray;
-            this.lblseñal1.Location = new System.Drawing.Point(228, 11);
-            this.lblseñal1.Name = "lblseñal1";
-            this.lblseñal1.Size = new System.Drawing.Size(13, 13);
-            this.lblseñal1.TabIndex = 6;
-            this.lblseñal1.Text = ">";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(580, 11);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Dashboard";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(316, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Gestion de laboratorios";
-            // 
-            // lblUTEQ
-            // 
-            this.lblUTEQ.AutoSize = true;
-            this.lblUTEQ.BackColor = System.Drawing.Color.White;
-            this.lblUTEQ.ForeColor = System.Drawing.Color.Gray;
-            this.lblUTEQ.Location = new System.Drawing.Point(108, 11);
-            this.lblUTEQ.Name = "lblUTEQ";
-            this.lblUTEQ.Size = new System.Drawing.Size(37, 13);
-            this.lblUTEQ.TabIndex = 3;
-            this.lblUTEQ.Text = "UTEQ";
             // 
             // pnMenu
             // 
@@ -172,7 +83,7 @@
             this.pnMenu.Location = new System.Drawing.Point(-1, 0);
             this.pnMenu.Name = "pnMenu";
             this.pnMenu.Size = new System.Drawing.Size(271, 750);
-            this.pnMenu.TabIndex = 5;
+            this.pnMenu.TabIndex = 8;
             // 
             // btnHistorialGeneral
             // 
@@ -224,19 +135,17 @@
             // 
             // btnComputadoras
             // 
-            this.btnComputadoras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(133)))), ((int)(((byte)(70)))));
-            this.btnComputadoras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnComputadoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComputadoras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(49)))));
+            this.btnComputadoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComputadoras.ForeColor = System.Drawing.Color.Silver;
             this.btnComputadoras.Image = global::SGLC__VERA_.Properties.Resources.laboratorio;
             this.btnComputadoras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnComputadoras.Location = new System.Drawing.Point(3, 299);
             this.btnComputadoras.Name = "btnComputadoras";
-            this.btnComputadoras.Size = new System.Drawing.Size(265, 33);
+            this.btnComputadoras.Size = new System.Drawing.Size(276, 33);
             this.btnComputadoras.TabIndex = 11;
             this.btnComputadoras.Text = "Computadoras";
             this.btnComputadoras.UseVisualStyleBackColor = false;
-            this.btnComputadoras.Click += new System.EventHandler(this.btnComputadoras_Click);
             // 
             // btnLaboratorios
             // 
@@ -303,17 +212,19 @@
             // 
             // btnPanelControl
             // 
-            this.btnPanelControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(49)))));
-            this.btnPanelControl.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPanelControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(133)))), ((int)(((byte)(70)))));
+            this.btnPanelControl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPanelControl.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPanelControl.ForeColor = System.Drawing.Color.Silver;
             this.btnPanelControl.Image = global::SGLC__VERA_.Properties.Resources.Panel;
             this.btnPanelControl.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPanelControl.Location = new System.Drawing.Point(3, 182);
             this.btnPanelControl.Name = "btnPanelControl";
-            this.btnPanelControl.Size = new System.Drawing.Size(274, 33);
+            this.btnPanelControl.Size = new System.Drawing.Size(265, 33);
             this.btnPanelControl.TabIndex = 6;
             this.btnPanelControl.Text = "Panel de Control";
             this.btnPanelControl.UseVisualStyleBackColor = false;
+            this.btnPanelControl.Click += new System.EventHandler(this.btnPanelControl_Click);
             // 
             // panel2
             // 
@@ -410,7 +321,96 @@
             this.lblUteqLabs.TabIndex = 6;
             this.lblUteqLabs.Text = "UTEQ Labs";
             // 
-            // frmPanelControl
+            // pnBarraSuperior
+            // 
+            this.pnBarraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnBarraSuperior.Controls.Add(this.pictureBox3);
+            this.pnBarraSuperior.Controls.Add(this.dateTimePicker1);
+            this.pnBarraSuperior.Controls.Add(this.lblSeñal2);
+            this.pnBarraSuperior.Controls.Add(this.lblseñal1);
+            this.pnBarraSuperior.Controls.Add(this.lblComputadoras);
+            this.pnBarraSuperior.Controls.Add(this.lblGestionLaboratorios);
+            this.pnBarraSuperior.Controls.Add(this.lblUTEQ);
+            this.pnBarraSuperior.Location = new System.Drawing.Point(267, 0);
+            this.pnBarraSuperior.Name = "pnBarraSuperior";
+            this.pnBarraSuperior.Size = new System.Drawing.Size(1102, 37);
+            this.pnBarraSuperior.TabIndex = 9;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::SGLC__VERA_.Properties.Resources.usuario;
+            this.pictureBox3.Location = new System.Drawing.Point(1051, -1);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(39, 37);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(892, 11);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(105, 20);
+            this.dateTimePicker1.TabIndex = 6;
+            // 
+            // lblSeñal2
+            // 
+            this.lblSeñal2.AutoSize = true;
+            this.lblSeñal2.BackColor = System.Drawing.Color.White;
+            this.lblSeñal2.ForeColor = System.Drawing.Color.Gray;
+            this.lblSeñal2.Location = new System.Drawing.Point(505, 11);
+            this.lblSeñal2.Name = "lblSeñal2";
+            this.lblSeñal2.Size = new System.Drawing.Size(13, 13);
+            this.lblSeñal2.TabIndex = 7;
+            this.lblSeñal2.Text = ">";
+            // 
+            // lblseñal1
+            // 
+            this.lblseñal1.AutoSize = true;
+            this.lblseñal1.BackColor = System.Drawing.Color.White;
+            this.lblseñal1.ForeColor = System.Drawing.Color.Gray;
+            this.lblseñal1.Location = new System.Drawing.Point(228, 11);
+            this.lblseñal1.Name = "lblseñal1";
+            this.lblseñal1.Size = new System.Drawing.Size(13, 13);
+            this.lblseñal1.TabIndex = 6;
+            this.lblseñal1.Text = ">";
+            // 
+            // lblComputadoras
+            // 
+            this.lblComputadoras.AutoSize = true;
+            this.lblComputadoras.BackColor = System.Drawing.Color.White;
+            this.lblComputadoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblComputadoras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblComputadoras.Location = new System.Drawing.Point(580, 11);
+            this.lblComputadoras.Name = "lblComputadoras";
+            this.lblComputadoras.Size = new System.Drawing.Size(87, 13);
+            this.lblComputadoras.TabIndex = 5;
+            this.lblComputadoras.Text = "Computadoras";
+            // 
+            // lblGestionLaboratorios
+            // 
+            this.lblGestionLaboratorios.AutoSize = true;
+            this.lblGestionLaboratorios.BackColor = System.Drawing.Color.White;
+            this.lblGestionLaboratorios.ForeColor = System.Drawing.Color.Gray;
+            this.lblGestionLaboratorios.Location = new System.Drawing.Point(316, 11);
+            this.lblGestionLaboratorios.Name = "lblGestionLaboratorios";
+            this.lblGestionLaboratorios.Size = new System.Drawing.Size(115, 13);
+            this.lblGestionLaboratorios.TabIndex = 4;
+            this.lblGestionLaboratorios.Text = "Gestion de laboratorios";
+            // 
+            // lblUTEQ
+            // 
+            this.lblUTEQ.AutoSize = true;
+            this.lblUTEQ.BackColor = System.Drawing.Color.White;
+            this.lblUTEQ.ForeColor = System.Drawing.Color.Gray;
+            this.lblUTEQ.Location = new System.Drawing.Point(108, 11);
+            this.lblUTEQ.Name = "lblUTEQ";
+            this.lblUTEQ.Size = new System.Drawing.Size(37, 13);
+            this.lblUTEQ.TabIndex = 3;
+            this.lblUTEQ.Text = "UTEQ";
+            // 
+            // frmComputadoras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -418,12 +418,9 @@
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.pnMenu);
             this.Controls.Add(this.pnBarraSuperior);
-            this.Name = "frmPanelControl";
-            this.Text = "Panel De Control";
+            this.Name = "frmComputadoras";
+            this.Text = "Computadoras";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.pnBarraSuperior.ResumeLayout(false);
-            this.pnBarraSuperior.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.pnMenu.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -434,39 +431,42 @@
             this.pnAdministrador.ResumeLayout(false);
             this.pnAdministrador.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnBarraSuperior.ResumeLayout(false);
+            this.pnBarraSuperior.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel pnBarraSuperior;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblUTEQ;
+
         private System.Windows.Forms.Panel pnMenu;
-        private System.Windows.Forms.Label lblGestionLaboratorio;
-        private System.Windows.Forms.Label lblUteqLabs;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel pnAdministrador;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label lblNombreAdministrador;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label lblSeñal2;
-        private System.Windows.Forms.Label lblseñal1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnCerrarSesion;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button btnLaboratorios;
-        private System.Windows.Forms.Button btnUsuarios;
-        private System.Windows.Forms.Button btnPanelControl;
         private System.Windows.Forms.Button btnHistorialGeneral;
         private System.Windows.Forms.Button btnAsignarEscaladas;
         private System.Windows.Forms.Button btnIncidenciasEscaladas;
         private System.Windows.Forms.Button btnComputadoras;
+        private System.Windows.Forms.Button btnLaboratorios;
+        private System.Windows.Forms.Button btnUsuarios;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button btnCerrarSesion;
+        private System.Windows.Forms.Button btnPanelControl;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel pnAdministrador;
+        private System.Windows.Forms.Label lblNombreAdministrador;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblGestionLaboratorio;
+        private System.Windows.Forms.Label lblUteqLabs;
+        private System.Windows.Forms.Panel pnBarraSuperior;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label lblSeñal2;
+        private System.Windows.Forms.Label lblseñal1;
+        private System.Windows.Forms.Label lblComputadoras;
+        private System.Windows.Forms.Label lblGestionLaboratorios;
+        private System.Windows.Forms.Label lblUTEQ;
     }
 }
-

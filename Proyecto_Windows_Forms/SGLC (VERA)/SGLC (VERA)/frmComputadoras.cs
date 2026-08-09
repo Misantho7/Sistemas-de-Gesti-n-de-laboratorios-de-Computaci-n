@@ -1,16 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
-using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SGLC__VERA_
 {
-    public partial class frmPanelControl : Form
+    public partial class frmComputadoras : Form
     {
-
-        public frmPanelControl()
+        public frmComputadoras()
         {
             InitializeComponent();
+        }
+
+        private void btnPanelControl_Click(object sender, EventArgs e)
+        {
+            frmPanelControl panelControl = new frmPanelControl();
+            panelControl.Show();
+            this.Hide();
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)
@@ -24,13 +35,6 @@ namespace SGLC__VERA_
         {
             frmLaboratorio laboratorio = new frmLaboratorio();
             laboratorio.Show();
-            this.Hide();
-        }
-
-        private void btnComputadoras_Click(object sender, EventArgs e)
-        {
-            frmComputadoras frmComputadoras = new frmComputadoras();
-            frmComputadoras.Show();
             this.Hide();
         }
 
