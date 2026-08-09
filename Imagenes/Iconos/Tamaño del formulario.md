@@ -1,2 +1,2 @@
 tamaño del formulario :
-1400; 800
+1386; 788
